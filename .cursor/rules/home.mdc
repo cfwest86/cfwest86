@@ -1,0 +1,12 @@
+---
+description: Operating rules for the agent home repository
+alwaysApply: true
+---
+
+This repository is the agent home for skills, rules, and the project catalog.
+
+- Do not edit `README.md` unless Carson explicitly asks to change the GitHub profile page.
+- Keep project code out of this repository. Match work to `repos/catalog.md`.
+- Use the route-task skill when a request may belong to an existing project.
+- Use the create-repo skill when no catalog entry fits.
+- Edit another repository only when it is present in this environment. If it is absent, name the target repository and stop.
