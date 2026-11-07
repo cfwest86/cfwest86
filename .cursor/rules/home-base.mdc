@@ -1,0 +1,19 @@
+---
+description: This repository is the home base for new chats. Route project work to the catalog or propose a new repo.
+alwaysApply: true
+---
+
+# Home base
+
+`cfwest86/cfwest86` is the starting repository for new chats. It stores routing rules, skills, and `docs/repos.md`.
+
+`README.md` is the public GitHub profile. Keep that profile text. Put hub documentation in `docs/`.
+
+Before doing any work:
+
+1. Read `docs/repos.md`.
+2. Hub work (rules, skills, catalog, routing) happens in this repository.
+3. When a listed repository matches, stop. Name it, link it, and give a prompt to paste into a new chat opened on that repository. Follow the `route-chat` skill.
+4. When no repository matches, follow the `propose-new-repo` skill. Wait for an explicit yes before treating a new repository as real.
+5. Keep project code, notebooks, and datasets in the project repository.
+6. Keep secrets, tokens, and private data out of this public repository.

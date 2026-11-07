@@ -1,0 +1,19 @@
+---
+description: Format and maintenance rules for the repository catalog and hub docs
+globs: docs/**/*.md
+alwaysApply: false
+---
+
+# Catalog and hub docs
+
+`docs/repos.md` is the source of truth for where work belongs. Skills and rules point at it. They do not keep a second copy of the list.
+
+When editing the catalog:
+
+- Put current projects under `Active`.
+- Put finished or coursework repositories under `Archive`.
+- Open an archive repository only when the user names it or is continuing that specific project.
+- Each active entry needs a name, URL, status, one-sentence purpose, and a "Open a chat here when" line.
+- Write the purpose so a later chat can match a request to it without opening the other repository.
+- Update the "Catalog checked" date when the list is refreshed from GitHub.
+- Leave `README.md` (the GitHub profile) unchanged unless the user asks to change the profile.
